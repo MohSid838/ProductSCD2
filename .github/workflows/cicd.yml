@@ -8,7 +8,7 @@ on:
 env:
   # set your bucket here (or reference another secret/env)
   BUCKET_NAME: siddiq-products
-  CODE_SUBDIR: siddiq-products/py_modules
+  CODE_SUBDIR: py_modules
 
 jobs:
   push-to-gcs:
